@@ -1,0 +1,55 @@
+body{
+    font-size: 10px;
+}
+h1,
+h2{
+    color: firebrick;
+}
+h1{
+    font-size: 1.5rem;
+}
+
+.cardWrapper{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 2rem;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #aaa;
+
+}
+.cardWrapperInner{
+  margin: auto;
+  width: 90%;
+}
+.cardDescription{
+    display: block;
+  
+    color: firebrick;
+    height: 90%;
+
+}
+
+.cardHeader{
+    text-decoration: underline;
+    line-height: 1rem;
+    
+}
+.itemDescription{
+    color: #1f1f1f;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 1rem;
+  
+}
+.cardImg{
+    width: 200px; 
+    position: relative;
+    top: 0rem;
+   margin: auto;
+}

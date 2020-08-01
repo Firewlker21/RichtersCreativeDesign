@@ -1,0 +1,33 @@
+.footerWrapper {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    color: white;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .footerWrapper p {
+    font-size: 0.75rem;
+  }
+  .footerLeftWrapper {
+    text-align: left;
+  }
+  .footerRightWrapper {
+    text-align: right;
+  }
+  
+  .footer-center-wrapper {
+  }
+  .socialLinksWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+    z-index: 1;
+  }
+  .socialLinks {
+    font-size: 2rem;
+    text-decoration: none;
+  }
